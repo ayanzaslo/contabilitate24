@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T00:00:00Z",
+  "title": "Design System: Contabilitate 24",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#14191a", "tonalRamp": ["#0a0d0d", "#14191a", "#252c2d", "#46514b", "#6a766f", "#98a29b", "#c5ccc6", "#e8ebe6"] },
+      "desk": { "role": "neutral", "displayName": "Desk Plastic", "canonical": "#e3e6de", "tonalRamp": ["#4a4f46", "#6b7167", "#8d9387", "#aeb4a8", "#c4c9bd", "#d3d8cd", "#e3e6de", "#f1f3ed"] },
+      "desk-shade": { "role": "neutral", "displayName": "Desk Shade", "canonical": "#d3d8cd", "tonalRamp": ["#454a41", "#656b5f", "#868c7f", "#a6ac9f", "#bcc2b3", "#d3d8cd", "#e3e6de", "#f1f3ed"] },
+      "paper": { "role": "neutral", "displayName": "Thermal Paper", "canonical": "#fafaf5", "tonalRamp": ["#5a5a52", "#78786f", "#99998f", "#b9b9ae", "#d4d4c9", "#e8e8dd", "#f4f4ee", "#fafaf5"] },
+      "graphite": { "role": "neutral", "displayName": "Graphite", "canonical": "#1f2325", "tonalRamp": ["#0c0e0f", "#15191b", "#1f2325", "#2b3033", "#41484b", "#5f686c", "#8a9397", "#c3c9cb"] },
+      "graphite-raised": { "role": "neutral", "displayName": "Graphite Raised", "canonical": "#2b3033", "tonalRamp": ["#0c0e0f", "#1f2325", "#2b3033", "#383e42", "#4d5558", "#6a7377", "#939b9e", "#c3c9cb"] },
+      "graphite-footer": { "role": "neutral", "displayName": "Graphite Footer", "canonical": "#15191b", "tonalRamp": ["#08090a", "#0f1213", "#15191b", "#1f2325", "#2b3033", "#41484b", "#5f686c", "#8a9397"] },
+      "signal": { "role": "primary", "displayName": "Signal Green", "canonical": "#00c27a", "tonalRamp": ["#033d27", "#055a39", "#0a7a4d", "#00a066", "#00c27a", "#25dc96", "#7eecbd", "#d2f8e7"] },
+      "signal-hi": { "role": "primary", "displayName": "Signal Hi", "canonical": "#25dc96", "tonalRamp": ["#055a39", "#0a7a4d", "#00a066", "#00c27a", "#25dc96", "#5be8b0", "#9bf2cf", "#d2f8e7"] },
+      "signal-deep": { "role": "primary", "displayName": "Signal Deep", "canonical": "#0a7a4d", "tonalRamp": ["#033d27", "#055a39", "#076b43", "#0a7a4d", "#00a066", "#00c27a", "#7eecbd", "#d2f8e7"] },
+      "signal-text": { "role": "primary", "displayName": "Signal Text", "canonical": "#076b43", "tonalRamp": ["#033d27", "#055a39", "#076b43", "#0a7a4d", "#00a066", "#00c27a", "#7eecbd", "#d2f8e7"] },
+      "lcd": { "role": "secondary", "displayName": "LCD Sage", "canonical": "#b9c9a2", "tonalRamp": ["#2f3a25", "#4b5a3b", "#6c7e57", "#8ea079", "#a4b68c", "#b9c9a2", "#d0dcbe", "#e8eedc"] },
+      "lcd-ink": { "role": "secondary", "displayName": "LCD Ink", "canonical": "#1f2d1a", "tonalRamp": ["#0e1609", "#1f2d1a", "#33452b", "#4b6040", "#687d5a", "#8b9f7d", "#b3c3a8", "#dbe4d4"] },
+      "mute": { "role": "neutral", "displayName": "Mute", "canonical": "#46514b", "tonalRamp": ["#1d2421", "#2f3833", "#46514b", "#5c6962", "#76827b", "#95a09a", "#b9c1bc", "#dde2de"] },
+      "mute-night": { "role": "neutral", "displayName": "Mute Night", "canonical": "#aab3ad", "tonalRamp": ["#4a524d", "#667069", "#808a84", "#949e98", "#aab3ad", "#c1c8c3", "#d8ddd9", "#eceee8"] },
+      "text-night": { "role": "neutral", "displayName": "Text Night", "canonical": "#eceee8", "tonalRamp": ["#6d736d", "#8c928c", "#aab0aa", "#c4c9c3", "#d6dad4", "#eceee8", "#f4f6f1", "#fbfcf9"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero title only, Archivo at 108% width." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles in Archivo semi-expanded." },
+      "title": { "displayName": "Title", "purpose": "Block and ruled-row headings." },
+      "body": { "displayName": "Body", "purpose": "Onest reading text, tabular numerals, 62ch measure." },
+      "lead": { "displayName": "Lead", "purpose": "Intro paragraph under a section title, in mute." },
+      "label": { "displayName": "Label", "purpose": "Martian Mono uppercase ledger heads, hours, legends." },
+      "figure": { "displayName": "Figure", "purpose": "Computed values printed on the LCD." }
+    },
+    "shadows": [
+      { "name": "slab", "value": "0 24px 50px -30px rgba(20, 25, 26, 0.55)", "purpose": "Long faint lift under paper slabs and contact card." },
+      { "name": "key-primary", "value": "inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,70,40,0.28), 0 8px 18px -8px rgba(0,90,55,0.55)", "purpose": "Bevel on signal buttons." },
+      { "name": "key-dark", "value": "inset 0 1px 0 rgba(255,255,255,0.16), 0 8px 18px -10px rgba(0,0,0,0.6)", "purpose": "Bevel on dark buttons." },
+      { "name": "night-panel", "value": "inset 0 1px 0 rgba(255,255,255,0.12), 0 30px 60px -32px rgba(0,0,0,0.7)", "purpose": "Graphite calculator panel." },
+      { "name": "lcd-inset", "value": "inset 0 2px 6px rgba(20,35,15,0.35), 0 1px 0 rgba(255,255,255,0.16)", "purpose": "Recessed LCD window." },
+      { "name": "ledger", "value": "0 1px 0 var(--line), 0 18px 36px -26px rgba(20,25,26,0.5)", "purpose": "Control ledger on desk." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Single easing for transforms, accordion and toggles." },
+      { "name": "press", "value": "0.14s transform", "purpose": "Button press travels 1px." },
+      { "name": "accordion", "value": "0.35s grid-template-rows", "purpose": "FAQ open and close." },
+      { "name": "pulse", "value": "2.4s infinite ping, only under no-preference motion", "purpose": "Live indicator ring on the open-hours dot." }
+    ],
+    "breakpoints": [
+      { "name": "wide", "value": "1280px" },
+      { "name": "nav", "value": "1060px" },
+      { "name": "stack", "value": "980px" },
+      { "name": "mobile", "value": "720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Green bevelled key for the one action: WhatsApp or call.",
+      "html": "<button class=\"ds-btn-primary\">Scrie pe WhatsApp</button>",
+      "css": ".ds-btn-primary { min-height: 46px; padding: 0.65rem 1.25rem; border: 1px solid transparent; border-radius: 11px; background: #00c27a; color: #14191a; font-family: Onest, system-ui, sans-serif; font-size: 0.98rem; font-weight: 650; cursor: pointer; box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,70,40,0.28), 0 8px 18px -8px rgba(0,90,55,0.55); transition: transform 0.14s cubic-bezier(0.22,1,0.36,1), background-color 0.2s; } .ds-btn-primary:hover { background: #25dc96; } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid #0a7a4d; outline-offset: 3px; }"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Graphite key for secondary actions on light ground.",
+      "html": "<button class=\"ds-btn-dark\">Vezi pretul</button>",
+      "css": ".ds-btn-dark { min-height: 46px; padding: 0.65rem 1.25rem; border: 1px solid transparent; border-radius: 11px; background: #1f2325; color: #f2f4ee; font-family: Onest, system-ui, sans-serif; font-size: 0.98rem; font-weight: 650; cursor: pointer; box-shadow: inset 0 1px 0 rgba(255,255,255,0.16), 0 8px 18px -10px rgba(0,0,0,0.6); transition: transform 0.14s cubic-bezier(0.22,1,0.36,1), background-color 0.2s; } .ds-btn-dark:hover { background: #2b3033; } .ds-btn-dark:active { transform: translateY(1px); } .ds-btn-dark:focus-visible { outline: 2px solid #0a7a4d; outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined key with a strong hairline for tertiary actions.",
+      "html": "<button class=\"ds-btn-ghost\">Afla mai mult</button>",
+      "css": ".ds-btn-ghost { min-height: 46px; padding: 0.65rem 1.25rem; border: 1px solid rgba(20,25,26,0.4); border-radius: 11px; background: transparent; color: #14191a; font-family: Onest, system-ui, sans-serif; font-size: 0.98rem; font-weight: 650; cursor: pointer; transition: background-color 0.2s; } .ds-btn-ghost:hover { background: rgba(127,135,128,0.14); } .ds-btn-ghost:focus-visible { outline: 2px solid #0a7a4d; outline-offset: 3px; }"
+    },
+    {
+      "name": "Control Ledger",
+      "kind": "custom",
+      "refersTo": "tape-slab",
+      "description": "Paper table of what the firm does, mono heads, dotted rows, closed by a double-ruled total.",
+      "html": "<table class=\"ds-ledger\"><thead><tr><th>Serviciu</th><th>Detaliu</th><th class=\"n\">Termen</th></tr></thead><tbody><tr><th>Infiintare</th><td>SRL complet</td><td class=\"n\">&lt;72h</td></tr><tr><th>Economist</th><td>CIM la firma ta</td><td class=\"n\">2-4h/luna</td></tr></tbody><tfoot><tr><th>Total</th><td>Totul la zi</td><td class=\"n\">OK</td></tr></tfoot></table>",
+      "css": ".ds-ledger { width: 100%; border-collapse: collapse; background: #fafaf5; color: #14191a; font-family: Onest, system-ui, sans-serif; box-shadow: 0 1px 0 rgba(20,25,26,0.15), 0 18px 36px -26px rgba(20,25,26,0.5); } .ds-ledger th, .ds-ledger td { padding: 0.85rem 1.2rem; text-align: left; } .ds-ledger thead th { font-family: 'Martian Mono', monospace; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: #46514b; border-bottom: 2px solid #14191a; } .ds-ledger tbody th { font-family: Archivo, Arial Narrow, sans-serif; font-weight: 750; font-size: 1.05rem; } .ds-ledger tbody tr + tr > * { border-top: 1px dotted rgba(20,25,26,0.4); } .ds-ledger .n { text-align: right; white-space: nowrap; font-family: 'Martian Mono', monospace; } .ds-ledger tfoot th, .ds-ledger tfoot td { border-top: 2px solid #14191a; font-weight: 650; }"
+    },
+    {
+      "name": "LCD Readout",
+      "kind": "custom",
+      "refersTo": "lcd-readout",
+      "description": "Sage recessed window where every computed figure is shown.",
+      "html": "<div class=\"ds-lcd\"><small>Estimare lunara</small><strong>1.250 lei</strong></div>",
+      "css": ".ds-lcd { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.9rem; padding: 1rem 1.3rem; border-radius: 10px; background: linear-gradient(180deg, #c4d3ad, #b9c9a2); color: #1f2d1a; box-shadow: inset 0 2px 6px rgba(20,35,15,0.35), 0 1px 0 rgba(255,255,255,0.16); } .ds-lcd small { font-family: 'Martian Mono', monospace; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; } .ds-lcd strong { font-family: 'Martian Mono', monospace; font-size: 2rem; font-weight: 500; }"
+    },
+    {
+      "name": "Calculator Panel",
+      "kind": "card",
+      "refersTo": "night-block",
+      "description": "Graphite panel with mono field labels and a raised select; hosts the LCD.",
+      "html": "<div class=\"ds-calc\"><label><span>Tip firma</span><select><option>SRL micro</option></select></label></div>",
+      "css": ".ds-calc { padding: 1.5rem; border-radius: 20px; background: #1f2325; color: #eceee8; box-shadow: inset 0 1px 0 rgba(255,255,255,0.12), 0 30px 60px -32px rgba(0,0,0,0.7); max-width: 420px; } .ds-calc span { display: block; margin-bottom: 0.35rem; font-family: 'Martian Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; color: #aab3ad; } .ds-calc select { width: 100%; min-height: 48px; padding: 0.5rem 0.8rem; border: 1px solid rgba(236,238,232,0.4); border-radius: 10px; background: #2b3033; color: #f2f4ee; font: inherit; } .ds-calc select:focus-visible { outline: 2px solid #00c27a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Tape Slab",
+      "kind": "card",
+      "refersTo": "tape-slab",
+      "description": "Thermal-paper surface with a faint long shadow; used for the contract extract and contact card.",
+      "html": "<div class=\"ds-slab\"><h3>Extras din contract</h3><p>Textul legal ca randuri simple.</p></div>",
+      "css": ".ds-slab { padding: 2rem; border-radius: 4px; background: #fafaf5; color: #14191a; font-family: Onest, system-ui, sans-serif; box-shadow: 0 24px 50px -30px rgba(20,25,26,0.55); } .ds-slab h3 { margin: 0 0 0.6rem; font-family: Archivo, Arial Narrow, sans-serif; font-size: 1.3rem; font-weight: 650; }"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "refersTo": "button-dark",
+      "description": "Ruled accordion row with a graphite square toggle.",
+      "html": "<div class=\"ds-faq\"><button><span class=\"q\">Cat dureaza infiintarea?</span><span class=\"t\"><i></i></span></button></div>",
+      "css": ".ds-faq { border-top: 1px solid rgba(20,25,26,0.4); border-bottom: 1px solid rgba(20,25,26,0.4); } .ds-faq button { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 1.2rem; padding: 1.15rem 0; border: 0; background: transparent; color: #14191a; text-align: left; cursor: pointer; } .ds-faq .q { font-family: Archivo, Arial Narrow, sans-serif; font-size: 1.1rem; font-weight: 650; line-height: 1.3; } .ds-faq .t { position: relative; flex: none; width: 28px; height: 28px; border-radius: 8px; background: #1f2325; } .ds-faq .t::before, .ds-faq .t i { content: ''; position: absolute; left: 8px; right: 8px; top: 13px; height: 2px; background: #f2f4ee; } .ds-faq .t i { transform: rotate(90deg); } .ds-faq button:focus-visible { outline: 2px solid #0a7a4d; outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Masina de adunat",
+    "overview": "The page is built around a real desk adding machine and reads as the tape it prints. The ground is matte grey desk plastic; content sits on thermal-paper slabs whose top and bottom edges are serrated like a torn roll; graphite (calculator body) appears only for the night guard block, the price calculator, the final call to action and the footer; every computed figure is lit on a sage LCD. Content is ruled tape lines, leader-dotted rows and two-column text rather than boxed cards.\n\nArchivo semi-expanded works like key legends, Onest carries reading, Martian Mono prints tape figures and ledger labels. One signal green carries one meaning: an action to take, or \"la zi\" (up to date). It is rare by design.\n\nThe 3D scenes (calculator, night clock) share the same palette and PBR plastic, graphite and paper materials as the CSS surfaces. Density is moderate: generous section rhythm, tight ruled rows inside.",
+    "keyCharacteristics": [
+      "Grey desk ground, paper slabs with serrated edges, graphite night blocks, LCD sage figures.",
+      "Structure by rules (2px ink, 1px line, dotted leaders), not by boxes.",
+      "Single signal green, split into fill and text values for legibility.",
+      "Tabular numerals on the whole page (body sets tabular-nums).",
+      "Flat sections; depth only on physical objects (keys, LCD, slabs)."
+    ],
+    "rules": [
+      { "name": "The One Meaning Rule", "body": "Green means act or \"la zi\". It is never decoration, never a second accent, and never a text color on light ground except Signal Text.", "section": "colors" },
+      { "name": "The LCD Rule", "body": "A computed or quoted figure lives on the sage LCD in mono; prose numbers stay in body type.", "section": "colors" },
+      { "name": "The Night Scope Rule", "body": "Graphite is reserved for the 24/7 block, the calculator, the final CTA and the footer. It does not return as card fill elsewhere.", "section": "colors" },
+      { "name": "The Three Voices Rule", "body": "Archivo for lettering, Onest for reading, Martian Mono for figures and ledger labels; no fourth family.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Numerals are tabular everywhere so columns align like a tape.", "section": "typography" },
+      { "name": "The Tooth Rule", "body": "A paper section meets the desk with a serrated edge, top and bottom; the same teeth close the incident tickets.", "section": "elevation" },
+      { "name": "The Bevel Rule", "body": "Raised controls get an inset highlight plus an inset bottom edge and a soft drop; flat content never does.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do let paper slabs overlap the desk with the serrated edge, and keep the desk grey #e3e6de as the page ground.",
+      "Do use Signal Text (#076b43) for green text on light ground and Signal (#00c27a) only for fills and on graphite.",
+      "Do put every computed figure on the sage LCD in Martian Mono.",
+      "Do structure content with 1px and 2px ink rules, dotted leaders and two-column ruled rows.",
+      "Do flip the line and text variables inside night blocks rather than restyling children."
+    ],
+    "donts": [
+      "Don't use graphite as a fill for ordinary content blocks outside the night, calculator, final and footer grounds.",
+      "Don't introduce a second accent hue or use green as decoration.",
+      "Don't add glass, tilt, or hard offset shadows; depth is soft and physical.",
+      "Don't replace the three type voices with a fourth family or a system display face.",
+      "Don't put prose numbers on the LCD or computed figures in body type."
+    ]
+  }
+}
